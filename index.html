@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>JQ - Part03 Ex 01</title>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+    <button type="button" name="buttonClick" id="buttonClick">Clic !</button>
+    <label for="count"></label><input type="text" name="count" id="count"/>
+    <!--<label for="count"></label><textarea name="count" id="count">0</textarea>-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script>
+        //$(function () {
+        //    var count = 0;
+        //    $('#buttonClick').click(function () {
+        //        $('#count').html(++count);
+        //    });
+        //});
+        $(function () {
+            var count = 0;
+            $('#buttonClick').click(function () {
+                count++;
+                $('#count').val(count);
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+﻿body{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 200px;
+    height: 50px;
+    color: black;
+}
+textarea
+{
+    width: 100px;
+}
+
